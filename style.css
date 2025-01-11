@@ -252,37 +252,38 @@ body {
     margin-top: 80px;
 }
 
-.opinion-section{
+.opinion-section {
     margin-top: 24px;
     padding: 32px;
     border-radius: 16px;
     background-color: white;
 }
 
-.opinion-section table{
+.opinion-section table {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
-.opinion-section th, .opinion-section td{
+.opinion-section th,
+.opinion-section td {
     border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 24px;
 }
 
-.opinion-section th{
+.opinion-section th {
     background-color: rgb(198, 228, 214);
     text-align: left;
-    border-right: none; 
+    border-right: none;
     border-left: none;
 }
 
-.opinion-section td > p{
+.opinion-section td>p {
     font-weight: 600;
     font-size: 16px;
 }
 
-#options{
+#options {
     background-color: rgb(198, 228, 214);
     padding: 10px 14px;
     border: 1px solid rgb(14, 14, 14);
@@ -290,4 +291,71 @@ body {
     font-weight: 500;
     font-size: 16px;
     font-family: "Fira Sans", serif;
+}
+
+.news {
+    margin-top: 80px;
+}
+
+.news>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.news-card {
+    padding: 48px;
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.news-card>img {
+    border-radius: 24px;
+}
+
+.card-details h2 {
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+.date-time {
+    margin: 12px 0px;
+    display: flex;
+    gap: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.card-details > p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.btn-3 {
+    background-color: rgb(0, 106, 80);
+    padding: 13px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
+    font-family: "Fira Sans", serif;
+}
+
+.btn-3:hover {
+    border: 1px solid rgb(0, 106, 80);
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 106, 80);
 }
