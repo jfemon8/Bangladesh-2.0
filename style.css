@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0px 160px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.btn-1 {
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Fira Sans", serif;
+}
+
+.btn-1:hover {
+    background-color: rgb(0, 106, 80);
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+.banner-section{
+    margin-top: 20px;
+    padding: 80px 60px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.banner-text h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+
+.banner-text h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    margin-bottom: 24px;
+}
+
+.btn-2{
+    background-color: rgb(0, 106, 80);
+    padding: 17px 34px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
+    font-family: "Fira Sans", serif;
+}
+
+.btn-2:hover{
+    border: 1px solid rgb(0, 106, 80);
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 106, 80);
+}
