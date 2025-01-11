@@ -234,16 +234,60 @@ body {
     text-align: justify;
 }
 
-.quote-bg h5{
+.quote-bg h5 {
     font-weight: 600;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
     margin-bottom: 4px;
 }
 
-.quote-designation{
+.quote-designation {
     color: rgba(14, 14, 14, 0.6);
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 24px;
+}
+
+.opinion {
+    margin-top: 80px;
+}
+
+.opinion-section{
+    margin-top: 24px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.opinion-section table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-section th, .opinion-section td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+
+.opinion-section th{
+    background-color: rgb(198, 228, 214);
+    text-align: left;
+    border-right: none; 
+    border-left: none;
+}
+
+.opinion-section td > p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#options{
+    background-color: rgb(198, 228, 214);
+    padding: 10px 14px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
 }
