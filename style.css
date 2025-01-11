@@ -11,6 +11,9 @@ body {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.nav-main-content{
     padding: 0px 160px;
 }
 
@@ -411,4 +414,73 @@ body {
 .donate-section input {
     margin-bottom: 32px;
     width: 90%;
+}
+
+.newsletter {
+    margin-top: 80px;
+    background-color: rgb(198, 228, 214);
+    padding: 80px 100px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.newsletter p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.email-container{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-container input{
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: white;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    width: 50%;
+}
+
+.subscribe{
+    background-color: rgb(0, 106, 80);
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    font-family: "Fira Sans", serif;
+}
+
+.subscribe:hover{
+    background-color: white;
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+    cursor: pointer;
+    padding: 16px 33px;
+}
+
+footer{
+    padding: 50px 0px;
+    text-align: center;
+    background-color: white;
+}
+
+footer h2{
+    margin-bottom: 32px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
 }
